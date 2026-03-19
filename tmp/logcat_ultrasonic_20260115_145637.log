@@ -1,0 +1,109 @@
+--------- beginning of main
+01-15 14:57:26.682 I/AudioFlinger( 1102): setParameters: filtered keyvalue screen_state=off
+01-15 14:57:26.682 I/AudioFlinger( 1102): +mAudioHwDevs(primary)->setParameters(): screen_state=off
+01-15 14:57:26.682 I/AudioFlinger( 1102): -mAudioHwDevs(primary)->setParameters(): screen_state=off
+01-15 14:57:26.682 I/AudioFlinger( 1102): +mAudioHwDevs(bluetooth)->setParameters(): screen_state=off
+01-15 14:57:26.683 I/AudioFlinger( 1102): -mAudioHwDevs(bluetooth)->setParameters(): screen_state=off
+01-15 14:57:26.684 I/AudioFlinger( 1102): +mAudioHwDevs(usb)->setParameters(): screen_state=off
+01-15 14:57:26.684 I/AudioFlinger( 1102): -mAudioHwDevs(usb)->setParameters(): screen_state=off
+01-15 14:57:26.684 I/AudioFlinger( 1102): +mAudioHwDevs(r_submix)->setParameters(): screen_state=off
+01-15 14:57:26.684 I/AudioFlinger( 1102): -mAudioHwDevs(r_submix)->setParameters(): screen_state=off
+01-15 14:57:26.982 I/AudioFlinger( 1102): setParameters: filtered keyvalue screen_state=off
+01-15 14:57:26.982 I/AudioFlinger( 1102): +mAudioHwDevs(primary)->setParameters(): screen_state=off
+01-15 14:57:26.983 I/AudioFlinger( 1102): -mAudioHwDevs(primary)->setParameters(): screen_state=off
+01-15 14:57:26.983 I/AudioFlinger( 1102): +mAudioHwDevs(bluetooth)->setParameters(): screen_state=off
+01-15 14:57:26.983 I/AudioFlinger( 1102): -mAudioHwDevs(bluetooth)->setParameters(): screen_state=off
+01-15 14:57:26.983 I/AudioFlinger( 1102): +mAudioHwDevs(usb)->setParameters(): screen_state=off
+01-15 14:57:26.984 I/AudioFlinger( 1102): -mAudioHwDevs(usb)->setParameters(): screen_state=off
+01-15 14:57:26.984 I/AudioFlinger( 1102): +mAudioHwDevs(r_submix)->setParameters(): screen_state=off
+01-15 14:57:26.984 I/AudioFlinger( 1102): -mAudioHwDevs(r_submix)->setParameters(): screen_state=off
+01-15 14:57:28.055 I/AudioFlinger( 1102): setParameters: filtered keyvalue screen_state=on
+01-15 14:57:28.055 I/AudioFlinger( 1102): +mAudioHwDevs(primary)->setParameters(): screen_state=on
+01-15 14:57:28.055 I/AudioFlinger( 1102): -mAudioHwDevs(primary)->setParameters(): screen_state=on
+01-15 14:57:28.055 I/AudioFlinger( 1102): +mAudioHwDevs(bluetooth)->setParameters(): screen_state=on
+01-15 14:57:28.056 I/AudioFlinger( 1102): -mAudioHwDevs(bluetooth)->setParameters(): screen_state=on
+01-15 14:57:28.056 I/AudioFlinger( 1102): +mAudioHwDevs(usb)->setParameters(): screen_state=on
+01-15 14:57:28.056 I/AudioFlinger( 1102): -mAudioHwDevs(usb)->setParameters(): screen_state=on
+01-15 14:57:28.056 I/AudioFlinger( 1102): +mAudioHwDevs(r_submix)->setParameters(): screen_state=on
+01-15 14:57:28.056 I/AudioFlinger( 1102): -mAudioHwDevs(r_submix)->setParameters(): screen_state=on
+01-15 14:57:28.460 I/AudioFlinger( 1102): setParameters: filtered keyvalue screen_state=on
+01-15 14:57:28.470 I/AudioFlinger( 1102): +mAudioHwDevs(primary)->setParameters(): screen_state=on
+01-15 14:57:28.470 I/AudioFlinger( 1102): -mAudioHwDevs(primary)->setParameters(): screen_state=on
+01-15 14:57:28.470 I/AudioFlinger( 1102): +mAudioHwDevs(bluetooth)->setParameters(): screen_state=on
+01-15 14:57:28.470 I/AudioFlinger( 1102): -mAudioHwDevs(bluetooth)->setParameters(): screen_state=on
+01-15 14:57:28.470 I/AudioFlinger( 1102): +mAudioHwDevs(usb)->setParameters(): screen_state=on
+01-15 14:57:28.471 I/AudioFlinger( 1102): -mAudioHwDevs(usb)->setParameters(): screen_state=on
+01-15 14:57:28.471 I/AudioFlinger( 1102): +mAudioHwDevs(r_submix)->setParameters(): screen_state=on
+01-15 14:57:28.471 I/AudioFlinger( 1102): -mAudioHwDevs(r_submix)->setParameters(): screen_state=on
+01-15 14:57:33.585 I/MainActivity(32155): → 检测前重新配置硬件...
+01-15 14:57:33.586 I/MainActivity(32155): ========================================
+01-15 14:57:33.586 I/MainActivity(32155): ✓ 已启用底部扬声器模式（高能量）
+01-15 14:57:33.587 I/MainActivity(32155):   扬声器: 底部扬声器（外放，功率大）
+01-15 14:57:33.587 I/MainActivity(32155):     → tinymix: LOL Mux + Tran_Pa_Scene:14
+01-15 14:57:33.587 I/MainActivity(32155):   麦克风: 底部麦克风（UNPROCESSED）
+01-15 14:57:33.587 I/MainActivity(32155):     → tinymix: ADC_L + PGA_L(AIN0) + DMIC_DATA0
+01-15 14:57:33.587 I/MainActivity(32155):   优势: 同侧直达,声波路径最短最直接
+01-15 14:57:33.587 I/MainActivity(32155): ========================================
+01-15 14:57:33.664 I/AudioFlinger( 1102): setParameters: filtered keyvalue clientTid=32155
+01-15 14:57:33.664 I/AudioFlinger( 1102): +mAudioHwDevs(primary)->setParameters(): clientTid=32155
+01-15 14:57:33.665 I/AudioFlinger( 1102): -mAudioHwDevs(primary)->setParameters(): clientTid=32155
+01-15 14:57:33.665 I/AudioFlinger( 1102): +mAudioHwDevs(bluetooth)->setParameters(): clientTid=32155
+01-15 14:57:33.665 I/AudioFlinger( 1102): -mAudioHwDevs(bluetooth)->setParameters(): clientTid=32155
+01-15 14:57:33.665 I/AudioFlinger( 1102): +mAudioHwDevs(usb)->setParameters(): clientTid=32155
+01-15 14:57:33.665 I/AudioFlinger( 1102): -mAudioHwDevs(usb)->setParameters(): clientTid=32155
+01-15 14:57:33.665 I/AudioFlinger( 1102): +mAudioHwDevs(r_submix)->setParameters(): clientTid=32155
+01-15 14:57:33.665 I/AudioFlinger( 1102): -mAudioHwDevs(r_submix)->setParameters(): clientTid=32155
+01-15 14:57:33.666 I/AudioFlinger( 1102): createEffect pid 1102, effectClient 0xb4000077a478d090, priority 0, sessionId 1129, io 21, factory 0xb400007754771350
+01-15 14:57:33.694 I/AudioFlinger( 1102): setParameters: filtered keyvalue EnableWirelessSound=off
+01-15 14:57:33.694 I/AudioFlinger( 1102): +mAudioHwDevs(primary)->setParameters(): EnableWirelessSound=off
+01-15 14:57:33.694 I/AudioFlinger( 1102): -mAudioHwDevs(primary)->setParameters(): EnableWirelessSound=off
+01-15 14:57:33.694 I/AudioFlinger( 1102): +mAudioHwDevs(bluetooth)->setParameters(): EnableWirelessSound=off
+01-15 14:57:33.694 I/AudioFlinger( 1102): -mAudioHwDevs(bluetooth)->setParameters(): EnableWirelessSound=off
+01-15 14:57:33.694 I/AudioFlinger( 1102): +mAudioHwDevs(usb)->setParameters(): EnableWirelessSound=off
+01-15 14:57:33.694 I/AudioFlinger( 1102): -mAudioHwDevs(usb)->setParameters(): EnableWirelessSound=off
+01-15 14:57:33.695 I/AudioFlinger( 1102): +mAudioHwDevs(r_submix)->setParameters(): EnableWirelessSound=off
+01-15 14:57:33.695 I/AudioFlinger( 1102): -mAudioHwDevs(r_submix)->setParameters(): EnableWirelessSound=off
+01-15 14:57:33.697 I/AudioFlinger( 1102): setParameters: filtered keyvalue MAGT-AudioThread=9214;MAGT-Process=32155
+01-15 14:57:33.703 I/AudioRecord(32155): createRecord_l(0): AUDIO_INPUT_FLAG_FAST successful; frameCount 0 -> 4096
+01-15 14:57:33.704 I/AudioFlinger( 1102): setParameters: filtered keyvalue EnableWirelessSound=off
+01-15 14:57:33.704 I/AudioFlinger( 1102): +mAudioHwDevs(primary)->setParameters(): EnableWirelessSound=off
+01-15 14:57:33.704 I/AudioFlinger( 1102): -mAudioHwDevs(primary)->setParameters(): EnableWirelessSound=off
+01-15 14:57:33.704 I/AudioFlinger( 1102): +mAudioHwDevs(bluetooth)->setParameters(): EnableWirelessSound=off
+01-15 14:57:33.705 I/AudioFlinger( 1102): -mAudioHwDevs(bluetooth)->setParameters(): EnableWirelessSound=off
+01-15 14:57:33.705 I/AudioFlinger( 1102): +mAudioHwDevs(usb)->setParameters(): EnableWirelessSound=off
+01-15 14:57:33.705 I/AudioFlinger( 1102): -mAudioHwDevs(usb)->setParameters(): EnableWirelessSound=off
+01-15 14:57:33.705 I/AudioFlinger( 1102): +mAudioHwDevs(r_submix)->setParameters(): EnableWirelessSound=off
+01-15 14:57:33.705 I/AudioFlinger( 1102): -mAudioHwDevs(r_submix)->setParameters(): EnableWirelessSound=off
+01-15 14:57:33.745 I/MainActivity(32155): → 启动持续硬件配置监控...
+01-15 14:57:33.753 W/MainActivity(32155):   ⚠ 硬件配置失败（应用内无 root 权限）
+01-15 14:57:35.005 I/MainActivity(32155): [状态变化] FAR, 能量=0.0
+01-15 14:57:35.520 I/AudioFlinger( 1102): setParameters: filtered keyvalue volumeDevice=2;volumeIndex=1;volumeStreamType=3
+01-15 14:57:35.669 I/MainActivity(32155): 校准数据已保存到文件: /data/user/0/com.example.myapplication/files/calibration_history.csv
+01-15 14:57:35.670 I/MainActivity(32155): [校准完成] 基线=1.85, 音量=1/15 (6%)
+01-15 14:57:35.671 I/MainActivity(32155): [状态变化] PENDING, 能量=1.0
+01-15 14:57:35.686 I/MainActivity(32155): ✓ WAV 录制已启动: ultrasonic_filtered_20260115_145735.wav (高通滤波 >15kHz)
+01-15 14:57:35.755 I/MainActivity(32155): [状态变化] VERY_NEAR, 能量=6.552197
+01-15 14:57:36.373 I/MainActivity(32155): ✓ 硬件配置监控完成（已强制应用 10 次）
+01-15 14:57:39.614 I/MainActivity(32155): [距离重置] 相对距离=-7.839849 mm, 累积距离=-27.153828 mm
+01-15 14:57:39.640 I/MainActivity(32155): [距离重置] 相对距离=0.019071056 mm, 累积距离=-27.134756 mm
+01-15 14:57:39.705 I/MainActivity(32155): [状态变化] PENDING, 能量=1.4796326
+01-15 14:57:53.687 I/MainActivity(32155): [状态变化] VERY_NEAR, 能量=1.911377
+01-15 14:57:53.775 I/MainActivity(32155): [距离重置] 相对距离=4.0220566 mm, 累积距离=-23.1127 mm
+01-15 14:57:53.858 I/MainActivity(32155): [状态变化] PENDING, 能量=1.7524202
+01-15 14:57:57.700 I/MainActivity(32155): [状态变化] VERY_NEAR, 能量=1.8608421
+01-15 14:57:57.782 I/MainActivity(32155): [距离重置] 相对距离=-0.77094036 mm, 累积距离=-23.88364 mm
+01-15 14:57:57.804 I/MainActivity(32155): [距离重置] 相对距离=-0.049294714 mm, 累积距离=-23.932936 mm
+01-15 14:57:57.820 I/MainActivity(32155): [距离重置] 相对距离=0.031088196 mm, 累积距离=-23.901848 mm
+01-15 14:57:57.867 I/MainActivity(32155): [状态变化] PENDING, 能量=1.6708114
+01-15 14:57:58.154 I/MainActivity(32155): [状态变化] VERY_NEAR, 能量=1.8572363
+01-15 14:57:58.729 I/MainActivity(32155): [状态变化] PENDING, 能量=1.6964426
+01-15 14:57:59.241 I/MainActivity(32155): [距离重置] 相对距离=-0.05185345 mm, 累积距离=-23.953701 mm
+01-15 14:57:59.242 I/MainActivity(32155): [状态变化] VERY_NEAR, 能量=1.8124255
+01-15 14:57:59.264 I/MainActivity(32155): [距离重置] 相对距离=0.029876182 mm, 累积距离=-23.923824 mm
+01-15 14:57:59.288 I/MainActivity(32155): [距离重置] 相对距离=0.01869536 mm, 累积距离=-23.905128 mm
+01-15 14:57:59.332 I/MainActivity(32155): [距离重置] 相对距离=0.017357321 mm, 累积距离=-23.887772 mm
+01-15 14:57:59.348 I/MainActivity(32155): [距离重置] 相对距离=0.02991868 mm, 累积距离=-23.857853 mm
+01-15 14:57:59.389 I/MainActivity(32155): [距离重置] 相对距离=0.01848545 mm, 累积距离=-23.839367 mm
+01-15 14:57:59.411 I/MainActivity(32155): [状态变化] PENDING, 能量=1.730581
+01-15 14:57:59.585 I/MainActivity(32155): [状态变化] VERY_NEAR, 能量=1.9056761
+01-15 14:57:59.660 I/MainActivity(32155): [状态变化] PENDING, 能量=1.7312586

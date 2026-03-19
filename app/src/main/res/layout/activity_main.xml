@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#F5F5F5">
+
+    <!-- 标题 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="超声波接近检测"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="基于幅度变化的距离感知"
+        android:textSize="14sp"
+        android:textColor="#757575"
+        android:layout_marginBottom="48dp" />
+
+    <!-- 状态显示卡片 -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:elevation="4dp"
+        app:cardCornerRadius="12dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- 运行状态 -->
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="状态: 已停止"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginBottom="12dp" />
+
+            <!-- 检测状态 -->
+            <TextView
+                android:id="@+id/tvState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="检测状态: --"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"
+                android:layout_marginBottom="12dp" />
+
+            <!-- 校准进度 -->
+            <TextView
+                android:id="@+id/tvCalibrationProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="校准进度: --"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                android:layout_marginBottom="12dp" />
+
+            <!-- 当前音量 -->
+            <TextView
+                android:id="@+id/tvVolume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="音量: --"
+                android:textSize="16sp"
+                android:textColor="#009688"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+            <!-- 累积距离变化 (相位法) -->
+            <TextView
+                android:id="@+id/tvCumulativeDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="累积距离: 0.0 mm"
+                android:textSize="18sp"
+                android:textColor="#673AB7"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- 按钮组 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- 开始按钮 -->
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="开始检测"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4CAF50"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 校准按钮 -->
+        <Button
+            android:id="@+id/btnCalibrate"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="校准"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2196F3"
+            android:layout_marginBottom="16dp"
+            android:enabled="false" />
+
+        <!-- 停止按钮 -->
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="停止检测"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#F44336"
+            android:enabled="false" />
+
+    </LinearLayout>
+
+    <!-- 使用说明 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📌 使用说明：\n\n1. 点击开始检测启动\n2. 点击校准并将手机放在空旷处\n3. 校准完成后，尝试靠近/遮挡手机\n4. 观察检测状态的变化"
+        android:textSize="14sp"
+        android:textColor="#757575"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"
+        android:background="#E3F2FD" />
+
+</LinearLayout>

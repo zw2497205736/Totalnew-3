@@ -1,0 +1,536 @@
+--------- beginning of main
+01-15 15:41:56.942 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.28, 距离=-2.6mm, 时长=19.03s
+01-15 15:41:57.376 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.5, 包络=0.5, 有效=0.5, 基线=0.4, 比率=1.293, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:41:58.027 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=-2.6mm, 时长=20.115s
+01-15 15:41:59.095 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=-2.6mm, 时长=21.183s
+01-15 15:41:59.972 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.264, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:00.174 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=-2.6mm, 时长=22.262s
+01-15 15:42:01.217 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.27, 距离=-2.6mm, 时长=23.305s
+01-15 15:42:02.284 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=-2.6mm, 时长=24.371s
+01-15 15:42:02.502 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.260, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:03.350 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=-2.6mm, 时长=25.438s
+01-15 15:42:04.419 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=-2.6mm, 时长=26.506s
+01-15 15:42:05.065 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.248, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:05.472 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.24, 距离=-2.6mm, 时长=27.56s
+01-15 15:42:06.556 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=-2.6mm, 时长=28.644s
+01-15 15:42:07.627 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.5, 有效=0.5, 基线=0.4, 比率=1.378, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:07.628 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.28, 距离=-2.6mm, 时长=29.716s
+01-15 15:42:08.692 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.27, 距离=-2.6mm, 时长=30.78s
+01-15 15:42:09.763 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=-2.6mm, 时长=31.851s
+01-15 15:42:10.171 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.259, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:10.806 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=-2.6mm, 时长=32.894s
+01-15 15:42:11.887 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.27, 距离=-2.6mm, 时长=33.975s
+01-15 15:42:12.727 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.269, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:12.938 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=-2.6mm, 时长=35.026s
+01-15 15:42:14.021 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.27, 距离=-2.6mm, 时长=36.109s
+01-15 15:42:15.073 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.27, 距离=-2.6mm, 时长=37.161s
+01-15 15:42:15.294 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.236, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:16.189 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=-2.6mm, 时长=38.277s
+01-15 15:42:17.221 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=-2.6mm, 时长=39.309s
+01-15 15:42:17.851 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.260, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:18.284 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=-2.6mm, 时长=40.372s
+01-15 15:42:19.364 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=-2.6mm, 时长=41.452s
+01-15 15:42:20.423 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.5, 包络=0.6, 有效=0.6, 基线=0.4, 比率=1.747, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:20.424 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.41, 距离=-12.2mm, 时长=42.511s
+01-15 15:42:20.445 D/FusedProximityDetector( 1702):   ✅ 相位: Δ=-0.09mm, 累积=-12.3mm (原始relDist=-12.321167)
+01-15 15:42:20.595 I/ProximityDetector( 1702): ✓ 状态切换: NEAR | 音量=1/15(6%) | 比率=1.71 | 包络=0.6 | 基线=0.4 | 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:21.497 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.52, 距离=-13.1mm, 时长=43.585s
+01-15 15:42:21.541 I/ProximityDetector( 1702): ✓ 状态切换: VERY_NEAR | 音量=1/15(6%) | 比率=2.39 | 包络=0.8 | 基线=0.4 | 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:22.552 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.27, 距离=-13.1mm, 时长=44.64s
+01-15 15:42:22.577 D/FusedProximityDetector( 1702):   ✅ 相位: Δ=-0.01mm, 累积=-13.1mm (原始relDist=-13.08465)
+01-15 15:42:22.810 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8555765 >= 1.8, 音量=1)
+01-15 15:42:22.810 D/FusedProximityDetector( 1702): 状态变化: PENDING → VERY_NEAR (能量=1.8555765, 相对距离=-16.151321 mm)
+01-15 15:42:22.810 I/MainActivity( 1702): [状态变化] VERY_NEAR, 能量=1.8555765
+01-15 15:42:22.829 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8555765 >= 1.8, 音量=1)
+01-15 15:42:22.847 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8555765 >= 1.8, 音量=1)
+01-15 15:42:22.870 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8555765 >= 1.8, 音量=1)
+01-15 15:42:22.894 D/FusedProximityDetector( 1702): 状态变化: VERY_NEAR → PENDING (能量=1.7465414, 相对距离=-16.3805 mm)
+01-15 15:42:22.894 I/MainActivity( 1702): [状态变化] PENDING, 能量=1.7465414
+01-15 15:42:22.977 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.5, 包络=1.1, 有效=1.1, 基线=0.4, 比率=3.107, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:23.616 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.34, 距离=-16.4mm, 时长=0.722s
+01-15 15:42:24.693 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=-16.4mm, 时长=1.8s
+01-15 15:42:25.568 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.8, 有效=0.8, 基线=0.4, 比率=2.298, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:25.804 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.25, 距离=-16.4mm, 时长=2.911s
+01-15 15:42:26.905 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=-16.4mm, 时长=4.011s
+01-15 15:42:26.921 D/FusedProximityDetector( 1702):   ✅ 相位: Δ=0.01mm, 累积=-16.4mm (原始relDist=-16.431364)
+01-15 15:42:27.154 I/ProximityDetector( 1702): ✓ 状态切换: NEAR | 音量=1/15(6%) | 比率=1.92 | 包络=0.7 | 基线=0.4 | 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:27.970 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=-16.6mm, 时长=5.077s
+01-15 15:42:28.193 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.5, 包络=0.6, 有效=0.6, 基线=0.4, 比率=1.700, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:29.025 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.32, 距离=-16.7mm, 时长=6.131s
+01-15 15:42:30.094 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.32, 距离=-16.7mm, 时长=7.201s
+01-15 15:42:30.737 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.8, 包络=0.8, 有效=0.8, 基线=0.4, 比率=2.339, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:30.903 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8662388 >= 1.8, 音量=1)
+01-15 15:42:30.904 D/FusedProximityDetector( 1702): 状态变化: PENDING → VERY_NEAR (能量=1.8662388, 相对距离=-16.788527 mm)
+01-15 15:42:30.904 I/MainActivity( 1702): [状态变化] VERY_NEAR, 能量=1.8662388
+01-15 15:42:30.926 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8662388 >= 1.8, 音量=1)
+01-15 15:42:30.948 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8662388 >= 1.8, 音量=1)
+01-15 15:42:30.971 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8662388 >= 1.8, 音量=1)
+01-15 15:42:30.988 I/ProximityDetector( 1702): ✓ 状态切换: VERY_NEAR | 音量=1/15(6%) | 比率=2.27 | 包络=0.8 | 基线=0.4 | 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:30.989 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9101425 >= 1.8, 音量=1)
+01-15 15:42:31.014 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9101425 >= 1.8, 音量=1)
+01-15 15:42:31.031 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9101425 >= 1.8, 音量=1)
+01-15 15:42:31.052 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9101425 >= 1.8, 音量=1)
+01-15 15:42:31.076 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8877492 >= 1.8, 音量=1)
+01-15 15:42:31.098 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8877492 >= 1.8, 音量=1)
+01-15 15:42:31.118 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8877492 >= 1.8, 音量=1)
+01-15 15:42:31.141 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8877492 >= 1.8, 音量=1)
+01-15 15:42:31.159 D/FusedProximityDetector( 1702): 融合状态: VERY_NEAR, 能量=1.79, 距离=-16.6mm, 时长=0.256s
+01-15 15:42:31.161 D/FusedProximityDetector( 1702): 状态变化: VERY_NEAR → PENDING (能量=1.7948816, 相对距离=-16.64224 mm)
+01-15 15:42:31.162 I/MainActivity( 1702): [状态变化] PENDING, 能量=1.7948816
+01-15 15:42:32.223 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.24, 距离=-16.7mm, 时长=1.063s
+01-15 15:42:32.531 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8670564 >= 1.8, 音量=1)
+01-15 15:42:32.531 D/FusedProximityDetector( 1702): 状态变化: PENDING → VERY_NEAR (能量=1.8670564, 相对距离=-16.893421 mm)
+01-15 15:42:32.531 I/MainActivity( 1702): [状态变化] VERY_NEAR, 能量=1.8670564
+01-15 15:42:32.554 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8670564 >= 1.8, 音量=1)
+01-15 15:42:32.583 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8670564 >= 1.8, 音量=1)
+01-15 15:42:32.599 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8670564 >= 1.8, 音量=1)
+01-15 15:42:32.622 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0326931 >= 1.8, 音量=1)
+01-15 15:42:32.641 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0326931 >= 1.8, 音量=1)
+01-15 15:42:32.662 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0326931 >= 1.8, 音量=1)
+01-15 15:42:32.685 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0326931 >= 1.8, 音量=1)
+01-15 15:42:32.711 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1895993 >= 1.8, 音量=1)
+01-15 15:42:32.731 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1895993 >= 1.8, 音量=1)
+01-15 15:42:32.754 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1895993 >= 1.8, 音量=1)
+01-15 15:42:32.774 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1895993 >= 1.8, 音量=1)
+01-15 15:42:32.797 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3148458 >= 1.8, 音量=1)
+01-15 15:42:32.814 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3148458 >= 1.8, 音量=1)
+01-15 15:42:32.834 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3148458 >= 1.8, 音量=1)
+01-15 15:42:32.855 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3148458 >= 1.8, 音量=1)
+01-15 15:42:32.878 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3934357 >= 1.8, 音量=1)
+01-15 15:42:32.901 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3934357 >= 1.8, 音量=1)
+01-15 15:42:32.925 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3934357 >= 1.8, 音量=1)
+01-15 15:42:32.947 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3934357 >= 1.8, 音量=1)
+01-15 15:42:32.966 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.4446237 >= 1.8, 音量=1)
+01-15 15:42:32.987 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.4446237 >= 1.8, 音量=1)
+01-15 15:42:33.002 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.4446237 >= 1.8, 音量=1)
+01-15 15:42:33.024 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.4446237 >= 1.8, 音量=1)
+01-15 15:42:33.049 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.4930909 >= 1.8, 音量=1)
+01-15 15:42:33.067 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.4930909 >= 1.8, 音量=1)
+01-15 15:42:33.090 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.4930909 >= 1.8, 音量=1)
+01-15 15:42:33.109 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.4930909 >= 1.8, 音量=1)
+01-15 15:42:33.132 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.54315 >= 1.8, 音量=1)
+01-15 15:42:33.151 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.54315 >= 1.8, 音量=1)
+01-15 15:42:33.174 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.54315 >= 1.8, 音量=1)
+01-15 15:42:33.193 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.54315 >= 1.8, 音量=1)
+01-15 15:42:33.219 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.5872917 >= 1.8, 音量=1)
+01-15 15:42:33.244 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.5872917 >= 1.8, 音量=1)
+01-15 15:42:33.267 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.5872917 >= 1.8, 音量=1)
+01-15 15:42:33.290 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.5872917 >= 1.8, 音量=1)
+01-15 15:42:33.315 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=1.0, 包络=1.0, 有效=1.0, 基线=0.4, 比率=2.736, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:33.315 D/FusedProximityDetector( 1702): 融合状态: VERY_NEAR, 能量=2.61, 距离=-16.9mm, 时长=0.784s
+01-15 15:42:33.316 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6134825 >= 1.8, 音量=1)
+01-15 15:42:33.340 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6134825 >= 1.8, 音量=1)
+01-15 15:42:33.363 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6134825 >= 1.8, 音量=1)
+01-15 15:42:33.381 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6134825 >= 1.8, 音量=1)
+01-15 15:42:33.400 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6288476 >= 1.8, 音量=1)
+01-15 15:42:33.424 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6288476 >= 1.8, 音量=1)
+01-15 15:42:33.448 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6288476 >= 1.8, 音量=1)
+01-15 15:42:33.466 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6288476 >= 1.8, 音量=1)
+01-15 15:42:33.484 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6409445 >= 1.8, 音量=1)
+01-15 15:42:33.509 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6409445 >= 1.8, 音量=1)
+01-15 15:42:33.532 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6409445 >= 1.8, 音量=1)
+01-15 15:42:33.552 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6409445 >= 1.8, 音量=1)
+01-15 15:42:33.569 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6474533 >= 1.8, 音量=1)
+01-15 15:42:33.585 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6474533 >= 1.8, 音量=1)
+01-15 15:42:33.607 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6474533 >= 1.8, 音量=1)
+01-15 15:42:33.623 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6474533 >= 1.8, 音量=1)
+01-15 15:42:33.648 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6290247 >= 1.8, 音量=1)
+01-15 15:42:33.663 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6290247 >= 1.8, 音量=1)
+01-15 15:42:33.686 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6290247 >= 1.8, 音量=1)
+01-15 15:42:33.703 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6290247 >= 1.8, 音量=1)
+01-15 15:42:33.726 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.621145 >= 1.8, 音量=1)
+01-15 15:42:33.751 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.621145 >= 1.8, 音量=1)
+01-15 15:42:33.774 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.621145 >= 1.8, 音量=1)
+01-15 15:42:33.795 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.621145 >= 1.8, 音量=1)
+01-15 15:42:33.817 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6120512 >= 1.8, 音量=1)
+01-15 15:42:33.834 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6120512 >= 1.8, 音量=1)
+01-15 15:42:33.858 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6120512 >= 1.8, 音量=1)
+01-15 15:42:33.877 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6120512 >= 1.8, 音量=1)
+01-15 15:42:33.897 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6182554 >= 1.8, 音量=1)
+01-15 15:42:33.919 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6182554 >= 1.8, 音量=1)
+01-15 15:42:33.936 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6182554 >= 1.8, 音量=1)
+01-15 15:42:33.958 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6182554 >= 1.8, 音量=1)
+01-15 15:42:33.980 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6192539 >= 1.8, 音量=1)
+01-15 15:42:33.999 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6192539 >= 1.8, 音量=1)
+01-15 15:42:34.022 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6192539 >= 1.8, 音量=1)
+01-15 15:42:34.038 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.6192539 >= 1.8, 音量=1)
+01-15 15:42:34.063 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.5816967 >= 1.8, 音量=1)
+01-15 15:42:34.087 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.5816967 >= 1.8, 音量=1)
+01-15 15:42:34.111 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.5816967 >= 1.8, 音量=1)
+01-15 15:42:34.135 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.5816967 >= 1.8, 音量=1)
+01-15 15:42:34.159 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.4671724 >= 1.8, 音量=1)
+01-15 15:42:34.177 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.4671724 >= 1.8, 音量=1)
+01-15 15:42:34.200 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.4671724 >= 1.8, 音量=1)
+01-15 15:42:34.217 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.4671724 >= 1.8, 音量=1)
+01-15 15:42:34.242 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.303782 >= 1.8, 音量=1)
+01-15 15:42:34.263 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.303782 >= 1.8, 音量=1)
+01-15 15:42:34.287 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.303782 >= 1.8, 音量=1)
+01-15 15:42:34.306 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.303782 >= 1.8, 音量=1)
+01-15 15:42:34.329 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1741922 >= 1.8, 音量=1)
+01-15 15:42:34.345 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1741922 >= 1.8, 音量=1)
+01-15 15:42:34.367 D/FusedProximityDetector( 1702): 融合状态: VERY_NEAR, 能量=2.17, 距离=-16.9mm, 时长=1.836s
+01-15 15:42:34.368 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1741922 >= 1.8, 音量=1)
+01-15 15:42:34.384 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1741922 >= 1.8, 音量=1)
+01-15 15:42:34.406 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1194293 >= 1.8, 音量=1)
+01-15 15:42:34.427 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1194293 >= 1.8, 音量=1)
+01-15 15:42:34.442 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1194293 >= 1.8, 音量=1)
+01-15 15:42:34.466 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1194293 >= 1.8, 音量=1)
+01-15 15:42:34.487 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0694852 >= 1.8, 音量=1)
+01-15 15:42:34.507 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0694852 >= 1.8, 音量=1)
+01-15 15:42:34.528 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0694852 >= 1.8, 音量=1)
+01-15 15:42:34.550 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0694852 >= 1.8, 音量=1)
+01-15 15:42:34.573 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0001888 >= 1.8, 音量=1)
+01-15 15:42:34.596 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0001888 >= 1.8, 音量=1)
+01-15 15:42:34.621 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0001888 >= 1.8, 音量=1)
+01-15 15:42:34.645 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0001888 >= 1.8, 音量=1)
+01-15 15:42:34.667 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9287573 >= 1.8, 音量=1)
+01-15 15:42:34.687 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9287573 >= 1.8, 音量=1)
+01-15 15:42:34.711 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9287573 >= 1.8, 音量=1)
+01-15 15:42:34.731 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9287573 >= 1.8, 音量=1)
+01-15 15:42:34.756 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.858681 >= 1.8, 音量=1)
+01-15 15:42:34.784 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.858681 >= 1.8, 音量=1)
+01-15 15:42:34.806 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.858681 >= 1.8, 音量=1)
+01-15 15:42:34.824 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.858681 >= 1.8, 音量=1)
+01-15 15:42:34.848 D/FusedProximityDetector( 1702): 状态变化: VERY_NEAR → PENDING (能量=1.7834175, 相对距离=-16.84899 mm)
+01-15 15:42:34.848 I/MainActivity( 1702): [状态变化] PENDING, 能量=1.7834175
+01-15 15:42:35.434 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.54, 距离=-16.9mm, 时长=0.586s
+01-15 15:42:35.861 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.6, 包络=0.7, 有效=0.7, 基线=0.4, 比率=2.098, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:36.121 D/FusedProximityDetector( 1702): 能量达到阈值重置: 能量=1.8008573, 阈值=1.8, 音量=1, 相对距离=-16.824724 mm
+01-15 15:42:36.121 I/MainActivity( 1702): [距离重置] 相对距离=-16.824724 mm, 累积距离=-11.87991 mm
+01-15 15:42:36.122 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8008573 >= 1.8, 音量=1)
+01-15 15:42:36.122 D/FusedProximityDetector( 1702): 状态变化: PENDING → VERY_NEAR (能量=1.8008573, 相对距离=0.0 mm)
+01-15 15:42:36.122 I/MainActivity( 1702): [状态变化] VERY_NEAR, 能量=1.8008573
+01-15 15:42:36.138 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8008573 >= 1.8, 音量=1)
+01-15 15:42:36.158 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8008573 >= 1.8, 音量=1)
+01-15 15:42:36.177 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8008573 >= 1.8, 音量=1)
+01-15 15:42:36.199 D/FusedProximityDetector( 1702): 能量达到阈值重置: 能量=1.8041267, 阈值=1.8, 音量=1, 相对距离=0.014368834 mm
+01-15 15:42:36.199 I/MainActivity( 1702): [距离重置] 相对距离=0.014368834 mm, 累积距离=-11.865541 mm
+01-15 15:42:36.199 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8041267 >= 1.8, 音量=1)
+01-15 15:42:36.221 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8041267 >= 1.8, 音量=1)
+01-15 15:42:36.243 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8041267 >= 1.8, 音量=1)
+01-15 15:42:36.262 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8041267 >= 1.8, 音量=1)
+01-15 15:42:36.287 D/FusedProximityDetector( 1702): 能量达到阈值重置: 能量=1.8124245, 阈值=1.8, 音量=1, 相对距离=0.013391935 mm
+01-15 15:42:36.287 I/MainActivity( 1702): [距离重置] 相对距离=0.013391935 mm, 累积距离=-11.85215 mm
+01-15 15:42:36.287 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8124245 >= 1.8, 音量=1)
+01-15 15:42:36.313 D/FusedProximityDetector( 1702): 能量达到阈值重置: 能量=1.8124245, 阈值=1.8, 音量=1, 相对距离=-0.02310104 mm
+01-15 15:42:36.313 I/MainActivity( 1702): [距离重置] 相对距离=-0.02310104 mm, 累积距离=-11.875251 mm
+01-15 15:42:36.314 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8124245 >= 1.8, 音量=1)
+01-15 15:42:36.331 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8124245 >= 1.8, 音量=1)
+01-15 15:42:36.356 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8124245 >= 1.8, 音量=1)
+01-15 15:42:36.378 D/FusedProximityDetector( 1702): 状态变化: VERY_NEAR → PENDING (能量=1.7668866, 相对距离=0.0 mm)
+01-15 15:42:36.378 I/MainActivity( 1702): [状态变化] PENDING, 能量=1.7668866
+01-15 15:42:36.503 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.70, 距离=0.0mm, 时长=0.125s
+01-15 15:42:37.157 I/ProximityDetector( 1702): ✓ 状态切换: NEAR | 音量=1/15(6%) | 比率=1.91 | 包络=0.7 | 基线=0.4 | 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:37.575 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=0.97, 距离=0.0mm, 时长=1.197s
+01-15 15:42:38.424 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.5, 包络=0.6, 有效=0.6, 基线=0.4, 比率=1.645, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:38.628 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.50, 距离=-0.0mm, 时长=2.25s
+01-15 15:42:38.851 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8566555 >= 1.8, 音量=1)
+01-15 15:42:38.851 D/FusedProximityDetector( 1702): 状态变化: PENDING → VERY_NEAR (能量=1.8566555, 相对距离=-0.07313054 mm)
+01-15 15:42:38.851 I/MainActivity( 1702): [状态变化] VERY_NEAR, 能量=1.8566555
+01-15 15:42:38.870 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8566555 >= 1.8, 音量=1)
+01-15 15:42:38.890 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8566555 >= 1.8, 音量=1)
+01-15 15:42:38.913 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8566555 >= 1.8, 音量=1)
+01-15 15:42:38.938 I/ProximityDetector( 1702): ✓ 状态切换: VERY_NEAR | 音量=1/15(6%) | 比率=2.46 | 包络=0.9 | 基线=0.4 | 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:38.939 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9782803 >= 1.8, 音量=1)
+01-15 15:42:38.963 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9782803 >= 1.8, 音量=1)
+01-15 15:42:38.986 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9782803 >= 1.8, 音量=1)
+01-15 15:42:39.003 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9782803 >= 1.8, 音量=1)
+01-15 15:42:39.024 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0599182 >= 1.8, 音量=1)
+01-15 15:42:39.041 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0599182 >= 1.8, 音量=1)
+01-15 15:42:39.062 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0599182 >= 1.8, 音量=1)
+01-15 15:42:39.078 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0599182 >= 1.8, 音量=1)
+01-15 15:42:39.103 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1154335 >= 1.8, 音量=1)
+01-15 15:42:39.127 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1154335 >= 1.8, 音量=1)
+01-15 15:42:39.150 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1154335 >= 1.8, 音量=1)
+01-15 15:42:39.164 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1154335 >= 1.8, 音量=1)
+01-15 15:42:39.187 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1369784 >= 1.8, 音量=1)
+01-15 15:42:39.204 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1369784 >= 1.8, 音量=1)
+01-15 15:42:39.227 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1369784 >= 1.8, 音量=1)
+01-15 15:42:39.249 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1369784 >= 1.8, 音量=1)
+01-15 15:42:39.270 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.17635 >= 1.8, 音量=1)
+01-15 15:42:39.294 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.17635 >= 1.8, 音量=1)
+01-15 15:42:39.310 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.17635 >= 1.8, 音量=1)
+01-15 15:42:39.332 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.17635 >= 1.8, 音量=1)
+01-15 15:42:39.357 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.18305 >= 1.8, 音量=1)
+01-15 15:42:39.374 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.18305 >= 1.8, 音量=1)
+01-15 15:42:39.397 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.18305 >= 1.8, 音量=1)
+01-15 15:42:39.420 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.18305 >= 1.8, 音量=1)
+01-15 15:42:39.441 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.197498 >= 1.8, 音量=1)
+01-15 15:42:39.458 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.197498 >= 1.8, 音量=1)
+01-15 15:42:39.482 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.197498 >= 1.8, 音量=1)
+01-15 15:42:39.507 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.197498 >= 1.8, 音量=1)
+01-15 15:42:39.527 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1998045 >= 1.8, 音量=1)
+01-15 15:42:39.553 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1998045 >= 1.8, 音量=1)
+01-15 15:42:39.570 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1998045 >= 1.8, 音量=1)
+01-15 15:42:39.596 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1998045 >= 1.8, 音量=1)
+01-15 15:42:39.619 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.202731 >= 1.8, 音量=1)
+01-15 15:42:39.642 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.202731 >= 1.8, 音量=1)
+01-15 15:42:39.664 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.202731 >= 1.8, 音量=1)
+01-15 15:42:39.683 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.202731 >= 1.8, 音量=1)
+01-15 15:42:39.705 D/FusedProximityDetector( 1702): 融合状态: VERY_NEAR, 能量=2.21, 距离=-0.1mm, 时长=0.855s
+01-15 15:42:39.705 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.210953 >= 1.8, 音量=1)
+01-15 15:42:39.723 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.210953 >= 1.8, 音量=1)
+01-15 15:42:39.747 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.210953 >= 1.8, 音量=1)
+01-15 15:42:39.770 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.210953 >= 1.8, 音量=1)
+01-15 15:42:39.789 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2473934 >= 1.8, 音量=1)
+01-15 15:42:39.810 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2473934 >= 1.8, 音量=1)
+01-15 15:42:39.834 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2473934 >= 1.8, 音量=1)
+01-15 15:42:39.859 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2473934 >= 1.8, 音量=1)
+01-15 15:42:39.883 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2681546 >= 1.8, 音量=1)
+01-15 15:42:39.902 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2681546 >= 1.8, 音量=1)
+01-15 15:42:39.924 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2681546 >= 1.8, 音量=1)
+01-15 15:42:39.946 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2681546 >= 1.8, 音量=1)
+01-15 15:42:39.970 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.260259 >= 1.8, 音量=1)
+01-15 15:42:39.994 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.260259 >= 1.8, 音量=1)
+01-15 15:42:40.018 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.260259 >= 1.8, 音量=1)
+01-15 15:42:40.041 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.260259 >= 1.8, 音量=1)
+01-15 15:42:40.065 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2384124 >= 1.8, 音量=1)
+01-15 15:42:40.087 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2384124 >= 1.8, 音量=1)
+01-15 15:42:40.109 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2384124 >= 1.8, 音量=1)
+01-15 15:42:40.132 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2384124 >= 1.8, 音量=1)
+01-15 15:42:40.150 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2326372 >= 1.8, 音量=1)
+01-15 15:42:40.166 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2326372 >= 1.8, 音量=1)
+01-15 15:42:40.188 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2326372 >= 1.8, 音量=1)
+01-15 15:42:40.204 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2326372 >= 1.8, 音量=1)
+01-15 15:42:40.223 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2410004 >= 1.8, 音量=1)
+01-15 15:42:40.248 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2410004 >= 1.8, 音量=1)
+01-15 15:42:40.264 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2410004 >= 1.8, 音量=1)
+01-15 15:42:40.287 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2410004 >= 1.8, 音量=1)
+01-15 15:42:40.304 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2585695 >= 1.8, 音量=1)
+01-15 15:42:40.325 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2585695 >= 1.8, 音量=1)
+01-15 15:42:40.347 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2585695 >= 1.8, 音量=1)
+01-15 15:42:40.368 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2585695 >= 1.8, 音量=1)
+01-15 15:42:40.390 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.282021 >= 1.8, 音量=1)
+01-15 15:42:40.415 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.282021 >= 1.8, 音量=1)
+01-15 15:42:40.437 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.282021 >= 1.8, 音量=1)
+01-15 15:42:40.459 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.282021 >= 1.8, 音量=1)
+01-15 15:42:40.496 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.297384 >= 1.8, 音量=1)
+01-15 15:42:40.517 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.297384 >= 1.8, 音量=1)
+01-15 15:42:40.532 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.297384 >= 1.8, 音量=1)
+01-15 15:42:40.555 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.297384 >= 1.8, 音量=1)
+01-15 15:42:40.578 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3010044 >= 1.8, 音量=1)
+01-15 15:42:40.601 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3010044 >= 1.8, 音量=1)
+01-15 15:42:40.619 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3010044 >= 1.8, 音量=1)
+01-15 15:42:40.643 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3010044 >= 1.8, 音量=1)
+01-15 15:42:40.667 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2957678 >= 1.8, 音量=1)
+01-15 15:42:40.689 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2957678 >= 1.8, 音量=1)
+01-15 15:42:40.712 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2957678 >= 1.8, 音量=1)
+01-15 15:42:40.733 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2957678 >= 1.8, 音量=1)
+01-15 15:42:40.754 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3048701 >= 1.8, 音量=1)
+01-15 15:42:40.778 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3048701 >= 1.8, 音量=1)
+01-15 15:42:40.800 D/FusedProximityDetector( 1702): 融合状态: VERY_NEAR, 能量=2.30, 距离=-0.1mm, 时长=1.949s
+01-15 15:42:40.800 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3048701 >= 1.8, 音量=1)
+01-15 15:42:40.824 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3048701 >= 1.8, 音量=1)
+01-15 15:42:40.848 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3723166 >= 1.8, 音量=1)
+01-15 15:42:40.873 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3723166 >= 1.8, 音量=1)
+01-15 15:42:40.889 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3723166 >= 1.8, 音量=1)
+01-15 15:42:40.911 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3723166 >= 1.8, 音量=1)
+01-15 15:42:40.930 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3372197 >= 1.8, 音量=1)
+01-15 15:42:40.951 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3372197 >= 1.8, 音量=1)
+01-15 15:42:40.969 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3372197 >= 1.8, 音量=1)
+01-15 15:42:40.985 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.3372197 >= 1.8, 音量=1)
+01-15 15:42:41.007 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.5, 包络=0.9, 有效=0.9, 基线=0.4, 比率=2.590, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:41.008 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1425862 >= 1.8, 音量=1)
+01-15 15:42:41.023 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1425862 >= 1.8, 音量=1)
+01-15 15:42:41.046 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1425862 >= 1.8, 音量=1)
+01-15 15:42:41.068 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1425862 >= 1.8, 音量=1)
+01-15 15:42:41.087 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9454218 >= 1.8, 音量=1)
+01-15 15:42:41.105 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9454218 >= 1.8, 音量=1)
+01-15 15:42:41.128 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9454218 >= 1.8, 音量=1)
+01-15 15:42:41.150 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9454218 >= 1.8, 音量=1)
+01-15 15:42:41.167 D/FusedProximityDetector( 1702): 状态变化: VERY_NEAR → PENDING (能量=1.7882315, 相对距离=0.10947274 mm)
+01-15 15:42:41.167 I/MainActivity( 1702): [状态变化] PENDING, 能量=1.7882315
+01-15 15:42:41.857 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=-0.0mm, 时长=0.69s
+01-15 15:42:42.917 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.27, 距离=-0.1mm, 时长=1.75s
+01-15 15:42:43.530 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.5, 包络=0.7, 有效=0.7, 基线=0.4, 比率=1.915, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:43.530 I/ProximityDetector( 1702): ✓ 状态切换: NEAR | 音量=1/15(6%) | 比率=1.92 | 包络=0.7 | 基线=0.4 | 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:43.966 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.28, 距离=-0.0mm, 时长=2.799s
+01-15 15:42:43.991 D/FusedProximityDetector( 1702):   ✅ 相位: Δ=0.01mm, 累积=-0.0mm (原始relDist=-0.02694593)
+01-15 15:42:45.048 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=0.0mm, 时长=3.881s
+01-15 15:42:46.007 I/ProximityDetector( 1702): ✓ 状态切换: FAR | 音量=1/15(6%) | 比率=1.43 | 包络=0.5 | 基线=0.4 | 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:46.095 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.5, 有效=0.5, 基线=0.4, 比率=1.417, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:46.096 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.25, 距离=0.1mm, 时长=4.928s
+01-15 15:42:47.188 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.25, 距离=0.1mm, 时长=6.021s
+01-15 15:42:48.264 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=0.1mm, 时长=7.097s
+01-15 15:42:48.287 D/FusedProximityDetector( 1702):   ✅ 相位: Δ=-0.01mm, 累积=0.0mm (原始relDist=0.041098602)
+01-15 15:42:48.694 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.5, 包络=0.5, 有效=0.5, 基线=0.4, 比率=1.272, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:49.310 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.25, 距离=0.1mm, 时长=8.143s
+01-15 15:42:50.377 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.24, 距离=0.1mm, 时长=9.21s
+01-15 15:42:51.230 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.245, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:51.447 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.24, 距离=0.2mm, 时长=10.28s
+01-15 15:42:52.530 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.23, 距离=0.3mm, 时长=11.363s
+01-15 15:42:53.589 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.23, 距离=0.3mm, 时长=12.422s
+01-15 15:42:53.796 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.221, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:54.647 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.22, 距离=0.3mm, 时长=13.48s
+01-15 15:42:55.719 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.23, 距离=0.3mm, 时长=14.552s
+01-15 15:42:56.342 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.222, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:56.763 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.23, 距离=0.4mm, 时长=15.595s
+01-15 15:42:56.787 D/FusedProximityDetector( 1702):   ✅ 相位: Δ=0.01mm, 累积=0.4mm (原始relDist=0.3759022)
+01-15 15:42:57.847 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.22, 距离=0.3mm, 时长=16.68s
+01-15 15:42:58.893 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.262, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:42:58.894 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.25, 距离=0.4mm, 时长=17.727s
+01-15 15:42:59.970 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.25, 距离=0.3mm, 时长=18.803s
+01-15 15:43:01.025 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.25, 距离=0.4mm, 时长=19.858s
+01-15 15:43:01.450 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.245, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:02.100 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.24, 距离=0.3mm, 时长=20.932s
+01-15 15:43:03.181 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.24, 距离=0.3mm, 时长=22.014s
+01-15 15:43:04.042 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=4.3, 包络=4.3, 有效=4.3, 基线=0.4, 比率=12.280, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:04.043 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=3.4513896 >= 1.8, 音量=1)
+01-15 15:43:04.043 D/FusedProximityDetector( 1702): 状态变化: PENDING → VERY_NEAR (能量=3.4513896, 相对距离=-0.71072406 mm)
+01-15 15:43:04.043 I/MainActivity( 1702): [状态变化] VERY_NEAR, 能量=3.4513896
+01-15 15:43:04.062 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=3.4513896 >= 1.8, 音量=1)
+01-15 15:43:04.079 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=3.4513896 >= 1.8, 音量=1)
+01-15 15:43:04.100 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=3.4513896 >= 1.8, 音量=1)
+01-15 15:43:04.122 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=3.2700572 >= 1.8, 音量=1)
+01-15 15:43:04.145 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=3.2700572 >= 1.8, 音量=1)
+01-15 15:43:04.168 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=3.2700572 >= 1.8, 音量=1)
+01-15 15:43:04.190 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=3.2700572 >= 1.8, 音量=1)
+01-15 15:43:04.212 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.880273 >= 1.8, 音量=1)
+01-15 15:43:04.237 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.880273 >= 1.8, 音量=1)
+01-15 15:43:04.254 D/FusedProximityDetector( 1702): 融合状态: VERY_NEAR, 能量=2.88, 距离=-0.0mm, 时长=0.212s
+01-15 15:43:04.254 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.880273 >= 1.8, 音量=1)
+01-15 15:43:04.274 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.880273 >= 1.8, 音量=1)
+01-15 15:43:04.298 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.5556676 >= 1.8, 音量=1)
+01-15 15:43:04.320 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.5556676 >= 1.8, 音量=1)
+01-15 15:43:04.337 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.5556676 >= 1.8, 音量=1)
+01-15 15:43:04.358 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.5556676 >= 1.8, 音量=1)
+01-15 15:43:04.381 I/ProximityDetector( 1702): ✓ 状态切换: VERY_NEAR | 音量=1/15(6%) | 比率=11.80 | 包络=4.2 | 基线=0.4 | 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:04.382 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2869446 >= 1.8, 音量=1)
+01-15 15:43:04.403 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2869446 >= 1.8, 音量=1)
+01-15 15:43:04.422 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2869446 >= 1.8, 音量=1)
+01-15 15:43:04.440 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2869446 >= 1.8, 音量=1)
+01-15 15:43:04.463 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0717676 >= 1.8, 音量=1)
+01-15 15:43:04.484 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0717676 >= 1.8, 音量=1)
+01-15 15:43:04.502 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0717676 >= 1.8, 音量=1)
+01-15 15:43:04.519 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0717676 >= 1.8, 音量=1)
+01-15 15:43:04.542 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9048711 >= 1.8, 音量=1)
+01-15 15:43:04.566 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9048711 >= 1.8, 音量=1)
+01-15 15:43:04.585 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9048711 >= 1.8, 音量=1)
+01-15 15:43:04.606 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9048711 >= 1.8, 音量=1)
+01-15 15:43:04.624 D/FusedProximityDetector( 1702): 状态变化: VERY_NEAR → PENDING (能量=1.7804381, 相对距离=-0.028752938 mm)
+01-15 15:43:04.624 I/MainActivity( 1702): [状态变化] PENDING, 能量=1.7804381
+01-15 15:43:05.321 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.34, 距离=-0.0mm, 时长=0.697s
+01-15 15:43:06.371 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.25, 距离=-0.0mm, 时长=1.747s
+01-15 15:43:06.591 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=3.2, 有效=3.2, 基线=0.4, 比率=9.083, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:07.443 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.21, 距离=0.0mm, 时长=2.819s
+01-15 15:43:08.516 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.24, 距离=0.0mm, 时长=3.892s
+01-15 15:43:09.147 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=2.4, 有效=2.4, 基线=0.4, 比率=6.719, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:09.566 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.30, 距离=-0.1mm, 时长=4.942s
+01-15 15:43:10.631 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.30, 距离=-0.1mm, 时长=6.006s
+01-15 15:43:11.457 D/FusedProximityDetector( 1702): 进入低能量状态: 能量=0.8759186 < 0.88
+01-15 15:43:11.537 D/FusedProximityDetector( 1702): 退出低能量状态: 能量=0.88166606
+01-15 15:43:11.702 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=1.8, 有效=1.8, 基线=0.4, 比率=4.970, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:11.703 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=0.91, 距离=-0.1mm, 时长=7.079s
+01-15 15:43:12.779 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.58, 距离=-0.2mm, 时长=8.155s
+01-15 15:43:12.987 D/FusedProximityDetector( 1702): 能量达到阈值重置: 能量=1.8271708, 阈值=1.8, 音量=1, 相对距离=-0.17715123 mm
+01-15 15:43:12.988 I/MainActivity( 1702): [距离重置] 相对距离=-0.17715123 mm, 累积距离=-12.0524025 mm
+01-15 15:43:12.988 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8271708 >= 1.8, 音量=1)
+01-15 15:43:12.988 D/FusedProximityDetector( 1702): 状态变化: PENDING → VERY_NEAR (能量=1.8271708, 相对距离=0.0 mm)
+01-15 15:43:12.988 I/MainActivity( 1702): [状态变化] VERY_NEAR, 能量=1.8271708
+01-15 15:43:13.010 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8271708 >= 1.8, 音量=1)
+01-15 15:43:13.032 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8271708 >= 1.8, 音量=1)
+01-15 15:43:13.055 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8271708 >= 1.8, 音量=1)
+01-15 15:43:13.080 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8842525 >= 1.8, 音量=1)
+01-15 15:43:13.100 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8842525 >= 1.8, 音量=1)
+01-15 15:43:13.124 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8842525 >= 1.8, 音量=1)
+01-15 15:43:13.142 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.8842525 >= 1.8, 音量=1)
+01-15 15:43:13.159 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9325235 >= 1.8, 音量=1)
+01-15 15:43:13.179 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9325235 >= 1.8, 音量=1)
+01-15 15:43:13.195 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9325235 >= 1.8, 音量=1)
+01-15 15:43:13.216 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9325235 >= 1.8, 音量=1)
+01-15 15:43:13.239 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.988019 >= 1.8, 音量=1)
+01-15 15:43:13.257 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.988019 >= 1.8, 音量=1)
+01-15 15:43:13.281 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.988019 >= 1.8, 音量=1)
+01-15 15:43:13.298 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.988019 >= 1.8, 音量=1)
+01-15 15:43:13.319 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.023202 >= 1.8, 音量=1)
+01-15 15:43:13.341 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.023202 >= 1.8, 音量=1)
+01-15 15:43:13.363 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.023202 >= 1.8, 音量=1)
+01-15 15:43:13.387 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.023202 >= 1.8, 音量=1)
+01-15 15:43:13.410 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0631611 >= 1.8, 音量=1)
+01-15 15:43:13.428 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0631611 >= 1.8, 音量=1)
+01-15 15:43:13.449 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0631611 >= 1.8, 音量=1)
+01-15 15:43:13.471 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0631611 >= 1.8, 音量=1)
+01-15 15:43:13.494 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0916421 >= 1.8, 音量=1)
+01-15 15:43:13.510 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0916421 >= 1.8, 音量=1)
+01-15 15:43:13.533 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0916421 >= 1.8, 音量=1)
+01-15 15:43:13.555 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.0916421 >= 1.8, 音量=1)
+01-15 15:43:13.579 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1142716 >= 1.8, 音量=1)
+01-15 15:43:13.596 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1142716 >= 1.8, 音量=1)
+01-15 15:43:13.619 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1142716 >= 1.8, 音量=1)
+01-15 15:43:13.643 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1142716 >= 1.8, 音量=1)
+01-15 15:43:13.660 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.13926 >= 1.8, 音量=1)
+01-15 15:43:13.683 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.13926 >= 1.8, 音量=1)
+01-15 15:43:13.706 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.13926 >= 1.8, 音量=1)
+01-15 15:43:13.721 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.13926 >= 1.8, 音量=1)
+01-15 15:43:13.743 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1734228 >= 1.8, 音量=1)
+01-15 15:43:13.766 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1734228 >= 1.8, 音量=1)
+01-15 15:43:13.787 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1734228 >= 1.8, 音量=1)
+01-15 15:43:13.804 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.1734228 >= 1.8, 音量=1)
+01-15 15:43:13.828 D/FusedProximityDetector( 1702): 融合状态: VERY_NEAR, 能量=2.21, 距离=-0.0mm, 时长=0.84s
+01-15 15:43:13.828 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2058551 >= 1.8, 音量=1)
+01-15 15:43:13.850 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2058551 >= 1.8, 音量=1)
+01-15 15:43:13.872 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2058551 >= 1.8, 音量=1)
+01-15 15:43:13.895 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2058551 >= 1.8, 音量=1)
+01-15 15:43:13.920 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.223035 >= 1.8, 音量=1)
+01-15 15:43:13.939 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.223035 >= 1.8, 音量=1)
+01-15 15:43:13.960 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.223035 >= 1.8, 音量=1)
+01-15 15:43:13.977 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.223035 >= 1.8, 音量=1)
+01-15 15:43:13.999 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2058172 >= 1.8, 音量=1)
+01-15 15:43:14.020 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2058172 >= 1.8, 音量=1)
+01-15 15:43:14.042 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2058172 >= 1.8, 音量=1)
+01-15 15:43:14.065 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=2.2058172 >= 1.8, 音量=1)
+01-15 15:43:14.089 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9561517 >= 1.8, 音量=1)
+01-15 15:43:14.107 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9561517 >= 1.8, 音量=1)
+01-15 15:43:14.130 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9561517 >= 1.8, 音量=1)
+01-15 15:43:14.150 D/FusedProximityDetector( 1702): 状态判定: VERY_NEAR (能量=1.9561517 >= 1.8, 音量=1)
+01-15 15:43:14.173 D/FusedProximityDetector( 1702): 状态变化: VERY_NEAR → PENDING (能量=1.767433, 相对距离=-0.004870232 mm)
+01-15 15:43:14.173 I/MainActivity( 1702): [状态变化] PENDING, 能量=1.767433
+01-15 15:43:14.259 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.3, 包络=1.3, 有效=1.3, 基线=0.4, 比率=3.676, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:14.907 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=0.97, 距离=-0.0mm, 时长=0.734s
+01-15 15:43:15.978 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.15, 距离=0.2mm, 时长=1.805s
+01-15 15:43:16.813 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=1.0, 有效=1.0, 基线=0.4, 比率=2.719, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:17.035 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.25, 距离=0.3mm, 时长=2.863s
+01-15 15:43:18.098 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.25, 距离=0.3mm, 时长=3.925s
+01-15 15:43:19.191 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.24, 距离=0.3mm, 时长=5.018s
+01-15 15:43:19.410 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.5, 包络=0.7, 有效=0.7, 基线=0.4, 比率=2.012, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:19.852 I/ProximityDetector( 1702): ✓ 状态切换: NEAR | 音量=1/15(6%) | 比率=1.91 | 包络=0.7 | 基线=0.4 | 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:20.253 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.23, 距离=0.3mm, 时长=6.081s
+01-15 15:43:21.314 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.24, 距离=0.3mm, 时长=7.141s
+01-15 15:43:21.958 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.5, 有效=0.5, 基线=0.4, 比率=1.488, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:22.291 I/ProximityDetector( 1702): ✓ 状态切换: FAR | 音量=1/15(6%) | 比率=1.43 | 包络=0.5 | 基线=0.4 | 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:22.379 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.24, 距离=0.3mm, 时长=8.207s
+01-15 15:43:23.432 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.23, 距离=0.3mm, 时长=9.259s
+01-15 15:43:24.502 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.246, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:24.503 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.23, 距离=0.3mm, 时长=10.331s
+01-15 15:43:25.593 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.23, 距离=0.3mm, 时长=11.421s
+01-15 15:43:26.659 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.25, 距离=0.3mm, 时长=12.487s
+01-15 15:43:27.073 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.248, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:27.738 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.24, 距离=0.3mm, 时长=13.566s
+01-15 15:43:28.800 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.24, 距离=0.3mm, 时长=14.628s
+01-15 15:43:29.642 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.257, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:29.863 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.25, 距离=0.3mm, 时长=15.691s
+01-15 15:43:31.000 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=0.4mm, 时长=16.828s
+01-15 15:43:32.068 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.26, 距离=0.4mm, 时长=17.896s
+01-15 15:43:32.277 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.243, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:33.158 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.25, 距离=0.4mm, 时长=18.986s
+01-15 15:43:34.204 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.25, 距离=0.4mm, 时长=20.032s
+01-15 15:43:34.858 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.252, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:35.290 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.24, 距离=0.4mm, 时长=21.118s
+01-15 15:43:36.351 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.24, 距离=0.4mm, 时长=22.179s
+01-15 15:43:37.419 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.247, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:37.420 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.24, 距离=0.4mm, 时长=23.248s
+01-15 15:43:38.493 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.24, 距离=0.4mm, 时长=24.321s
+01-15 15:43:39.541 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.23, 距离=0.4mm, 时长=25.369s
+01-15 15:43:39.969 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.238, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:40.639 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.23, 距离=0.4mm, 时长=26.467s
+01-15 15:43:41.729 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.22, 距离=0.4mm, 时长=27.557s
+01-15 15:43:42.611 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.212, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:42.834 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.22, 距离=0.4mm, 时长=28.662s
+01-15 15:43:43.916 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.22, 距离=0.4mm, 时长=29.743s
+01-15 15:43:44.960 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.22, 距离=0.4mm, 时长=30.788s
+01-15 15:43:45.172 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.213, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:46.033 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.22, 距离=0.4mm, 时长=31.861s
+01-15 15:43:47.115 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.22, 距离=0.4mm, 时长=32.943s
+01-15 15:43:47.759 D/ProximityDetector( 1702): [包络监控] 音量=1/15, 原始=0.4, 包络=0.4, 有效=0.4, 基线=0.4, 比率=1.229, 阈值(NEAR=1.50, VERY_NEAR=2.00)
+01-15 15:43:48.161 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.22, 距离=0.4mm, 时长=33.989s
+01-15 15:43:49.229 D/FusedProximityDetector( 1702): 融合状态: PENDING, 能量=1.23, 距离=0.4mm, 时长=35.057s

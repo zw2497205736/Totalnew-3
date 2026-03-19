@@ -1,0 +1,11 @@
+## Copy this file to local.properties and set ONE sdk.dir for your machine.
+# This file is safe to commit; do not commit local.properties.
+
+# Windows example:
+# sdk.dir=D\:\\SDK_Android
+
+# macOS example:
+# sdk.dir=/Users/<your-name>/Library/Android/sdk
+
+# Linux example:
+# sdk.dir=/home/<your-name>/Android/Sdk

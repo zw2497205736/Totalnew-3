@@ -1,0 +1,74 @@
+
+E:\DeskTop\Totalnew\scripts>adb root
+adbd is already running as root
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinymix 'UL9_CH1 ADDA_UL_CH1' '1'"
+/system/bin/sh: tinymix: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinymix 'UL9_CH2 ADDA_UL_CH2' '1'"
+/system/bin/sh: tinymix: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinymix 'UL_CM1_CH1 ADDA_UL_CH1' '1'"
+/system/bin/sh: tinymix: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinymix 'UL_CM1_CH2 ADDA_UL_CH2' '1'"
+/system/bin/sh: tinymix: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinymix 'CM1_UL_MUX' 'CM1_16CH_PATH'"
+/system/bin/sh: tinymix: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinymix 'MISO0_MUX' 'UL1_CH2'"
+/system/bin/sh: tinymix: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinymix 'MISO1_MUX' 'UL1_CH1'"
+/system/bin/sh: tinymix: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinymix 'ADC_R_Mux' 'Right Preamplifier'"
+/system/bin/sh: tinymix: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinymix 'PGA_R_Mux' 'AIN2'"
+/system/bin/sh: tinymix: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinymix 'DMIC0_MUX' 'DMIC_DATA1_L_1'"
+/system/bin/sh: tinymix: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinymix 'DMIC1_MUX' 'DMIC_DATA0'"
+/system/bin/sh: tinymix: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinycap /sdcard/dump_topmic_pcm_1.wav -D 0 -d 13 -c 2 -r 48000 -b 16 -p 1024 -n 8 -T 10"
+/system/bin/sh: tinycap: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinymix 'MISO0_MUX' 'UL1_CH2'"
+/system/bin/sh: tinymix: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinymix 'MISO1_MUX' 'UL1_CH1'"
+/system/bin/sh: tinymix: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinymix 'ADC_R_Mux' 'Idle'"
+/system/bin/sh: tinymix: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinymix 'PGA_R_Mux' 'None'"
+/system/bin/sh: tinymix: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinymix 'UL9_CH1 ADDA_UL_CH1' '0'"
+/system/bin/sh: tinymix: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinymix 'UL9_CH2 ADDA_UL_CH2' '0'"
+/system/bin/sh: tinymix: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinymix 'UL_CM1_CH1 ADDA_UL_CH1' '0'"
+/system/bin/sh: tinymix: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinymix 'UL_CM1_CH2 ADDA_UL_CH2' '0'"
+/system/bin/sh: tinymix: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb shell "tinymix 'CM1_UL_MUX' 'CM1_2CH_PATH'"
+/system/bin/sh: tinymix: inaccessible or not found
+
+E:\DeskTop\Totalnew\scripts>adb pull /sdcard/dump_topmic_pcm_1.wav .
+adb: error: failed to stat remote object '/sdcard/dump_topmic_pcm_1.wav': No such file or directory
+
+E:\DeskTop\Totalnew\scripts>start .
+
+E:\DeskTop\Totalnew\scripts>pause
+请按任意键继续. . .
