@@ -32,7 +32,7 @@ class WavWriter(
      */
     fun start() {
         try {
-            val file = File(context.filesDir, filename)
+            val file = File(context.getExternalFilesDir(null), filename)
             raf = RandomAccessFile(file, "rw")
             raf?.setLength(0)
             

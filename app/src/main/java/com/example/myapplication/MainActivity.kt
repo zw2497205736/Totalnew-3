@@ -3,6 +3,7 @@ package com.example.myapplication
 import android.Manifest
 import android.content.Context
 import android.content.pm.PackageManager
+import android.media.AudioDeviceInfo
 import android.media.AudioManager
 import android.os.Bundle
 import android.os.Handler
@@ -45,6 +46,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var audioManager: AudioManager  // 音频管理器，用于路由到听筒
     private lateinit var signalProcessor: SignalProcessor  // 信号处理器
     private var wavWriter: WavWriter? = null  // WAV 文件写入器
+    private var wavWriterRaw: WavWriter? = null // WAV 原始音频写入器
     private var llapCsvLogger: LlapCsvLogger? = null  // LLAP 调试CSV日志
     
     private val mainHandler = Handler(Looper.getMainLooper())
@@ -321,6 +323,7 @@ class MainActivity : AppCompatActivity() {
                 
                 if (isCalibrated && wavWriter?.isRecording() == true) {
                     wavWriter?.writeSamples(filteredData)
+                    wavWriterRaw?.writeSamples(audioData)
                 }
                 if (!proximityDetector.isCalibrated()) {
                     mainHandler.post {
@@ -565,6 +568,10 @@ class MainActivity : AppCompatActivity() {
                 
                 wavWriter = WavWriter(this, filename, 48000, 1)  // 48kHz 采样率（匹配脚本）
                 wavWriter?.start()
+
+                val filenameRaw = "ultrasonic_raw_$timestamp.wav"
+                wavWriterRaw = WavWriter(this, filenameRaw, 48000, 1)
+                wavWriterRaw?.start()
                 
                 Log.i(TAG, "✓ WAV 录制已启动: $filename (高通滤波 >15kHz)")
                 Toast.makeText(this, "已开始保存超声波信号（已过滤人声）", Toast.LENGTH_SHORT).show()
@@ -582,6 +589,9 @@ class MainActivity : AppCompatActivity() {
         try {
             val filePath = wavWriter?.stop()
             wavWriter = null
+
+            wavWriterRaw?.stop()
+            wavWriterRaw = null
             
             if (filePath != null) {
                 mainHandler.post {
