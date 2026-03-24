@@ -4,6 +4,11 @@ import android.media.AudioAttributes
 import android.media.AudioFormat
 import android.media.AudioTrack
 import android.util.Log
+import java.net.DatagramPacket
+import java.net.DatagramSocket
+import java.net.InetAddress
+import java.nio.ByteBuffer
+import java.nio.ByteOrder
 import kotlin.math.PI
 import kotlin.math.sin
 
@@ -122,7 +127,9 @@ class UltrasonicGenerator {
                 // 每次循环都重新生成信号（相位会自动连续）
                 while (isPlaying && !Thread.currentThread().isInterrupted) {
                     try {
-                        val signal = generateMultiFrequencySignal(BUFFER_SIZE)
+//                        val signal = generateMultiFrequencySignal(BUFFER_SIZE)
+                        // NOTE: 模拟测试, 通过网络与 python 脚本通信
+                        val signal = recvAudioBufferToPlay()
                         audioTrack?.write(signal, 0, signal.size)
                     } catch (e: Exception) {
                         e.printStackTrace()
@@ -157,4 +164,40 @@ class UltrasonicGenerator {
      * 是否正在播放
      */
     fun isPlaying(): Boolean = isPlaying
+
+    private var recvSocket: DatagramSocket? = null
+
+    private fun recvAudioBufferToPlay(): ShortArray {
+        if (recvSocket == null) {
+            recvSocket = DatagramSocket(MainActivity.portAudioPlay)
+            recvSocket?.soTimeout = 1000  // 超时时间 1s
+        }
+
+        // 先向对方的 10002 发个消息, 然后等待信息
+        val array = ByteArray(1)
+        array[0] = 1
+        val packet = DatagramPacket(
+            array,
+            0,
+            array.size,
+            InetAddress.getByName(MainActivity.pyAddr),
+            MainActivity.portAudioPlay
+        )
+        recvSocket?.send(packet)
+        try {
+            recvSocket?.receive(packet)
+        }
+        catch (e: Exception) {
+            Log.i(TAG, "获取发送音频数据超时, 跳过")
+        }
+
+        val shortArray = ShortArray(packet.data.size / 2)
+
+        ByteBuffer.wrap(packet.data)
+            .order(ByteOrder.LITTLE_ENDIAN)
+            .asShortBuffer()
+            .get(shortArray)
+
+        return shortArray
+    }
 }

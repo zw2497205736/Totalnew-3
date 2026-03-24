@@ -15,6 +15,13 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import java.net.DatagramPacket
+import java.net.DatagramSocket
+import java.net.InetAddress
+import java.net.Socket
+import java.nio.ByteBuffer
+import java.nio.ByteOrder
+import kotlin.experimental.and
 
 /**
  * 主界面
@@ -25,6 +32,10 @@ class MainActivity : AppCompatActivity() {
     companion object {
         private const val TAG = "MainActivity"
         private const val PERMISSION_REQUEST_CODE = 1001
+
+        const val pyAddr: String = "192.168.1.10"
+        const val portAudioPlay: Int = 10001
+        const val portAudioRecord: Int = 10002
     }
     
     // UI 组件
@@ -305,11 +316,14 @@ class MainActivity : AppCompatActivity() {
         // 设置原生音频数据回调 (C++ OpenSL ES)
         NativeAudioRecorder.setCallback(object : NativeAudioRecorder.Callback {
             override fun onAudioData(audioData: ShortArray) {
+                // NOTE: 模拟测试, 通过网络与 python 脚本通信
+                sendRecordAudio(audioData)
+
                 // 性能监控：测量高通滤波器处理时间
                 val startFilter = System.nanoTime()
                 val filteredData = signalProcessor.highPassFilter(audioData)
                 val filterTime = (System.nanoTime() - startFilter) / 1_000_000.0
-                
+
                 // 性能监控：测量融合检测处理时间
                 val startProcess = System.nanoTime()
                 fusedDetector.processAudioData(filteredData, audioData)
@@ -423,7 +437,29 @@ class MainActivity : AppCompatActivity() {
         proximityDetector.startCalibration()
         tvCalibrationProgress.text = "校准进度: 0%"
     }
-    
+
+    private var sendSocket: DatagramSocket? = null
+
+    private fun sendRecordAudio(rawAudioData: ShortArray) {
+        if (sendSocket == null) {
+            sendSocket = DatagramSocket(portAudioRecord)
+        }
+
+        val buffer = ByteBuffer.allocate(rawAudioData.size * 2)
+            .order(ByteOrder.LITTLE_ENDIAN)
+        rawAudioData.forEach { buffer.putShort(it) }
+        val byteArray = buffer.array()
+
+        val packet = DatagramPacket(
+            byteArray,
+            0,
+            byteArray.size,
+            InetAddress.getByName(pyAddr),
+            portAudioRecord
+        )
+        sendSocket?.send(packet)
+    }
+
     /**
      * 开始检测
      */
@@ -484,10 +520,10 @@ class MainActivity : AppCompatActivity() {
         
         // 2. 启动超声波发射（通过 USAGE_MEDIA 路由到底部扬声器）
         ultrasonicGenerator.startPlaying()
-        
+
         // 3. 启动录音（切换为原生 C++ 采集）
         val recordSuccess = NativeAudioRecorder.start(48000, 1024)
-        
+
         if (!recordSuccess) {
             Toast.makeText(this, "启动录音失败，请检查权限", Toast.LENGTH_SHORT).show()
             ultrasonicGenerator.stopPlaying()
@@ -541,7 +577,7 @@ class MainActivity : AppCompatActivity() {
         
         // 停止 WAV 录制
         stopWavRecording()
-        
+
         ultrasonicGenerator.stopPlaying()
         NativeAudioRecorder.stop()
         proximityDetector.reset()
