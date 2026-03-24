@@ -4,6 +4,7 @@ import android.media.AudioAttributes
 import android.media.AudioFormat
 import android.media.AudioTrack
 import android.util.Log
+import java.io.ByteArrayOutputStream
 import java.net.DatagramPacket
 import java.net.DatagramSocket
 import java.net.InetAddress
@@ -184,16 +185,31 @@ class UltrasonicGenerator {
             MainActivity.portAudioPlay
         )
         recvSocket?.send(packet)
-        try {
-            recvSocket?.receive(packet)
-        }
-        catch (e: Exception) {
-            Log.i(TAG, "获取发送音频数据超时, 跳过")
+
+        val size = 8192     // 4096 个采样点, 每个 2B
+        val result = ByteArrayOutputStream(size)
+        var received = 0
+        var timeout = false
+
+        while (received < size && !timeout) {
+            val buf = ByteArray(size - received)
+            val packet = DatagramPacket(buf, buf.size)
+
+            try {
+                recvSocket?.receive(packet)
+            }
+            catch (e: Exception) {
+                Log.i(TAG, "获取发送音频数据超时, 跳过")
+                timeout = true
+                break
+            }
+            result.write(packet.data, 0, packet.length)
+            received += packet.length
         }
 
-        val shortArray = ShortArray(packet.data.size / 2)
-
-        ByteBuffer.wrap(packet.data)
+        val shortArray = ShortArray(size / 2)
+        val bytes = result.toByteArray()
+        ByteBuffer.wrap(bytes)
             .order(ByteOrder.LITTLE_ENDIAN)
             .asShortBuffer()
             .get(shortArray)

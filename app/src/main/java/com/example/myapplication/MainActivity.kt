@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         private const val TAG = "MainActivity"
         private const val PERMISSION_REQUEST_CODE = 1001
 
-        const val pyAddr: String = "192.168.1.10"
+        const val pyAddr: String = "172.20.10.2"
         const val portAudioPlay: Int = 10001
         const val portAudioRecord: Int = 10002
     }
