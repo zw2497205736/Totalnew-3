@@ -129,8 +129,13 @@ class UltrasonicGenerator {
                 while (isPlaying && !Thread.currentThread().isInterrupted) {
                     try {
 //                        val signal = generateMultiFrequencySignal(BUFFER_SIZE)
-                        // NOTE: 模拟测试, 通过网络与 python 脚本通信
-                        val signal = recvAudioBufferToPlay()
+                        // TODO: 调用 Python 进行测试
+                        val signalTmp = PyBridge.instance?.getAudioBufferToSend()
+                        val signal = signalTmp ?: ShortArray(1)
+                        if (signal.size == 1) {
+                            Log.i(TAG, "获取播放音频数据失败")
+                            continue
+                        }
                         audioTrack?.write(signal, 0, signal.size)
                     } catch (e: Exception) {
                         e.printStackTrace()
@@ -165,55 +170,4 @@ class UltrasonicGenerator {
      * 是否正在播放
      */
     fun isPlaying(): Boolean = isPlaying
-
-    private var recvSocket: DatagramSocket? = null
-
-    private fun recvAudioBufferToPlay(): ShortArray {
-        if (recvSocket == null) {
-            recvSocket = DatagramSocket(MainActivity.portAudioPlay)
-            recvSocket?.soTimeout = 1000  // 超时时间 1s
-        }
-
-        // 先向对方的 10002 发个消息, 然后等待信息
-        val array = ByteArray(1)
-        array[0] = 1
-        val packet = DatagramPacket(
-            array,
-            0,
-            array.size,
-            InetAddress.getByName(MainActivity.pyAddr),
-            MainActivity.portAudioPlay
-        )
-        recvSocket?.send(packet)
-
-        val size = 8192     // 4096 个采样点, 每个 2B
-        val result = ByteArrayOutputStream(size)
-        var received = 0
-        var timeout = false
-
-        while (received < size && !timeout) {
-            val buf = ByteArray(size - received)
-            val packet = DatagramPacket(buf, buf.size)
-
-            try {
-                recvSocket?.receive(packet)
-            }
-            catch (e: Exception) {
-                Log.i(TAG, "获取发送音频数据超时, 跳过")
-                timeout = true
-                break
-            }
-            result.write(packet.data, 0, packet.length)
-            received += packet.length
-        }
-
-        val shortArray = ShortArray(size / 2)
-        val bytes = result.toByteArray()
-        ByteBuffer.wrap(bytes)
-            .order(ByteOrder.LITTLE_ENDIAN)
-            .asShortBuffer()
-            .get(shortArray)
-
-        return shortArray
-    }
 }

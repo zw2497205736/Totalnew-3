@@ -45,7 +45,7 @@ class FusedProximityDetector(
         private const val LOW_ENERGY_DURATION = 1000L  // 1秒
         
         // 距离变化阈值（降低以提高响应速度）
-        private const val DISTANCE_CHANGE_THRESHOLD = 0.001f  // mm
+        private const val DISTANCE_CHANGE_THRESHOLD = 0.01f  // mm
         
         // 速度调整系数 (等效C++的SPEED_ADJ)
         private const val SPEED_ADJ = 1.3f  // mm/mm
@@ -113,7 +113,7 @@ class FusedProximityDetector(
         volume == 4 -> 1.6f   // 音量4：提高到1.6
         else -> 1.3f          // 音量3+：使用标准阈值1.3
     }
-    
+
     /**
      * 处理音频数据（统一入口）
      * @param filteredData 高通滤波后的数据（用于能量法）

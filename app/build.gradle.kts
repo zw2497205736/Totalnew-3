@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("com.chaquo.python")
 }
 
 android {
@@ -55,6 +56,16 @@ android {
     }
 }
 
+chaquopy {
+    defaultConfig {
+//        version = "3.10"
+        buildPython("C:\\Users\\WHUCS-STU\\AppData\\Local\\conda\\conda\\envs\\work\\python.exe")
+        pip {
+            install("numpy")
+        }
+    }
+}
+
 dependencies {
 
     implementation(libs.androidx.core.ktx)
@@ -67,4 +78,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation("com.chaquo.python:gradle:12.0.1")
 }

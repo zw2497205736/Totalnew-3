@@ -101,7 +101,7 @@ class PhaseRangeFinder {
 
     // 每帧调试快照（用于低音量诊断）
     private var lastDebugSnapshot: DebugSnapshot? = null
-    
+
     /**
      * 处理单帧数据 (固定1920样本)
      * @param frame 1920个样本的音频数据

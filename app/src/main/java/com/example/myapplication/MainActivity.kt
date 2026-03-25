@@ -3,7 +3,6 @@ package com.example.myapplication
 import android.Manifest
 import android.content.Context
 import android.content.pm.PackageManager
-import android.media.AudioDeviceInfo
 import android.media.AudioManager
 import android.os.Bundle
 import android.os.Handler
@@ -15,13 +14,8 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import java.net.DatagramPacket
-import java.net.DatagramSocket
-import java.net.InetAddress
-import java.net.Socket
-import java.nio.ByteBuffer
-import java.nio.ByteOrder
-import kotlin.experimental.and
+import java.util.concurrent.LinkedBlockingQueue
+import java.util.concurrent.TimeUnit
 
 /**
  * 主界面
@@ -66,7 +60,9 @@ class MainActivity : AppCompatActivity() {
     private var isCalibrated = false  // 是否已完成校准
     private var cumulativeDistance = 0f  // 累积距离变化 (mm)，从0开始不重置
     private var frameCount = 0  // 用于性能监控的帧计数器
-    
+
+    private val pyBridge: PyBridge = PyBridge()
+
     // 音量更新定时器
     private val volumeUpdateRunnable = object : Runnable {
         override fun run() {
@@ -214,6 +210,9 @@ class MainActivity : AppCompatActivity() {
      * 初始化核心组件
      */
     private fun initComponents() {
+        // 初始化 python
+        pyBridge.init(this)
+
         ultrasonicGenerator = UltrasonicGenerator()
         ultrasonicRecorder = UltrasonicRecorder()
         audioManager = getSystemService(Context.AUDIO_SERVICE) as AudioManager
@@ -316,8 +315,16 @@ class MainActivity : AppCompatActivity() {
         // 设置原生音频数据回调 (C++ OpenSL ES)
         NativeAudioRecorder.setCallback(object : NativeAudioRecorder.Callback {
             override fun onAudioData(audioData: ShortArray) {
-                // NOTE: 模拟测试, 通过网络与 python 脚本通信
-                sendRecordAudio(audioData)
+
+                // TODO: 调用 python 测试
+                if (!audioDataQueue.offer(audioData)) {
+                    // 队列满，移除最旧的数据并添加新数据
+                    audioDataQueue.poll()
+                    audioDataQueue.offer(audioData)
+                    Log.w(TAG, "音频数据队列已满，丢弃旧数据")
+                }
+                wavWriterRaw?.writeSamples(audioData)
+                return
 
                 // 性能监控：测量高通滤波器处理时间
                 val startFilter = System.nanoTime()
@@ -438,27 +445,8 @@ class MainActivity : AppCompatActivity() {
         tvCalibrationProgress.text = "校准进度: 0%"
     }
 
-    private var sendSocket: DatagramSocket? = null
-
-    private fun sendRecordAudio(rawAudioData: ShortArray) {
-        if (sendSocket == null) {
-            sendSocket = DatagramSocket(portAudioRecord)
-        }
-
-        val buffer = ByteBuffer.allocate(rawAudioData.size * 2)
-            .order(ByteOrder.LITTLE_ENDIAN)
-        rawAudioData.forEach { buffer.putShort(it) }
-        val byteArray = buffer.array()
-
-        val packet = DatagramPacket(
-            byteArray,
-            0,
-            byteArray.size,
-            InetAddress.getByName(pyAddr),
-            portAudioRecord
-        )
-        sendSocket?.send(packet)
-    }
+    private val audioDataQueue = LinkedBlockingQueue<ShortArray>(8192)
+    private var thAudioRecv: Thread? = null
 
     /**
      * 开始检测
@@ -467,6 +455,41 @@ class MainActivity : AppCompatActivity() {
         if (isRunning) {
             Toast.makeText(this, "已在运行中", Toast.LENGTH_SHORT).show()
             return
+        }
+
+        PyBridge.instance?.reset()
+        audioDataQueue.clear()
+        thAudioRecv = Thread {
+            while (isRunning) {
+                try {
+                    // 从队列中阻塞式获取音频数据（最多等待100ms，便于响应停止信号）
+                    val audioData = audioDataQueue.poll(100, TimeUnit.MILLISECONDS)
+
+                    if (audioData != null) {
+                        val result = PyBridge.instance?.processAudioBuffer(audioManager.getStreamVolume(AudioManager.STREAM_MUSIC), audioData) !!
+                        val energyRatio = result.energy_ratio
+                        val stateStr = result.state
+                        val state = when (stateStr) {
+                            "FAR" -> FusedProximityDetector.ProximityState.FAR
+                            "NEAR" -> FusedProximityDetector.ProximityState.VERY_NEAR
+                            "VERY_NEAR" -> FusedProximityDetector.ProximityState.VERY_NEAR
+                            else -> FusedProximityDetector.ProximityState.PENDING
+                        }
+                        val relDist: Float = result.relative_distance
+                        val timeInState: Int = result.time_in_state
+                        runOnUiThread {
+                            updateFusedStateUI(state, energyRatio, relDist, timeInState.toLong())
+                        }
+                    }
+
+                } catch (e: InterruptedException) {
+                    Log.i(TAG, "thAudioRecv 线程被中断")
+                    Thread.currentThread().interrupt()
+                    break
+                } catch (e: Exception) {
+                    Log.e(TAG, "thAudioRecv 处理音频数据时出错", e)
+                }
+            }
         }
         
         // 检查权限
@@ -565,6 +588,8 @@ class MainActivity : AppCompatActivity() {
         updateUI()
         
         Toast.makeText(this, "已开始检测，请点击校准进行初始化", Toast.LENGTH_LONG).show()
+        thAudioRecv?.start()
+        startWavRecording()
     }
     
     /**
@@ -574,7 +599,9 @@ class MainActivity : AppCompatActivity() {
         if (!isRunning) return
         
         Log.d(TAG, "停止检测...")
-        
+
+        thAudioRecv?.interrupt()
+
         // 停止 WAV 录制
         stopWavRecording()
 
